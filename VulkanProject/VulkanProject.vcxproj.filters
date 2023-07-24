@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{22775b42-3f9d-4758-a2ba-9296d6ed37d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headfile">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="srcfile">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headfile\first_app.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_pipeline.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_window.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_device.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_swap_chain.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_model.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_game_object.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\lve_renderer.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+    <ClInclude Include="headfile\simple_render_system.h">
+      <Filter>Headfile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srcfile\first_app.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_device.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_pipeline.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_swap_chain.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_window.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\main.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_model.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\lve_renderer.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+    <ClCompile Include="srcfile\simlpe_render_system.cpp">
+      <Filter>srcfile</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
